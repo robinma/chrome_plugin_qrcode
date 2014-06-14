@@ -1,8 +1,9 @@
 {
-  "name": "qrcode",
+  "name": "二维码工具 qrcode",
   "version": "1.0",
   "manifest_version":2,
   "description": "易班前端团队，二维码工具",
+  "author":"robin ma, 高级前端工程师， ahmzj@163.com",
   "icons": {
     "16": "images/icon/icon_16.png",
     "48": "images/icon/icon_48.png",
@@ -27,7 +28,7 @@
   "content_scripts":[{
   "matches":["http://*/*","https://*/*"],
   "css":["css/page_contents.css"],
-  "js":["js/zepto.min.js"]
+  "js":["js/lib/zepto.min.js"]
   }],
   "permissions":["tabs","http://*/*","https://*/*","notifications"]
 }
