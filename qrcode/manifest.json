@@ -2,7 +2,8 @@
   "name": "二维码工具 qrcode",
   "version": "1.0",
   "manifest_version":2,
-  "description": "易班前端团队，二维码工具",
+  "description": "易班前端团队，二维码工具，robin ma，ahmzj@163.com",
+  "homepage_url":"https://github.com/robinma/chrome_plugin_qrcode",
   "author":"robin ma, 高级前端工程师， ahmzj@163.com",
   "icons": {
     "16": "images/icon/icon_16.png",
